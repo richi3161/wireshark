@@ -36,4 +36,8 @@ sudo make install
 --- Result:
 The main steps are cmake + make + make install.
 After that You should be able to open Wireshark on Your OS.
+
+# start wireshark
+sudo wireshark
+
 - richi3161

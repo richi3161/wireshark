@@ -1,4 +1,11 @@
-# codes documents itself...
+#########################################################
+# Fasttrack to Your own wireshark build               ###
+# Codes documents itself, but...                      ###
+# ...some hints:                                      ###
+# The paths used here, are examples.                  ###
+# This way was tested on Ubuntu/Linux.                ###
+#                                                     ###
+#########################################################
 
 # check wireshark build
 apt-cache policy wireshark

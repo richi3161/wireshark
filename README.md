@@ -1,5 +1,4 @@
 # Fasttrack to Your own wireshark build
-Customizing and testing wireshark
 
 When it comes to the moment...where You want to test some new wireshark dissectors, 
 You need to compile a wireshark test build.

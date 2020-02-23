@@ -7,3 +7,7 @@ You need to compile a wireshark test build.
 While searching for a beginners guide, I didn´t found some really easy description.
 
 So, let´s start with a fast, rough guide, how to build the newest wireshark release on Linux (Ubuntu).
+
+The best way to place and leave Your code ist github :-)
+
+PS. And for cooperation!

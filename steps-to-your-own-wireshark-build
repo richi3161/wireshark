@@ -32,3 +32,8 @@ make
 
 # make install
 make install
+
+--- Result:
+The main steps are cmake + make + make install.
+After that You should be able to open Wireshark on Your OS.
+- richi3161

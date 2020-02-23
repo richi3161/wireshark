@@ -1,0 +1,26 @@
+# codes documents itself...
+
+# check wireshark build
+apt-cache policy wireshark
+
+# install required dependencies
+sudo apt install qttools5-dev qttools5-dev-tools libqt5svg5-dev qtmultimedia5-dev build-essential automake autoconf libgtk2.0-dev libglib2.0-dev flex bison libpcap-dev libgcrypt20-dev cmake -y
+
+# get wireshark-source
+VER=3.2.0
+wget https://1.eu.dl.wireshark.org/src/wireshark-$VER.tar.xz -P /tmp
+
+# extract the source
+cd /tmp
+tar Jxf wireshark-$VER.tar.xz
+
+# compile
+mkdir /tmp/build
+cd /tmp/build
+cmake /tmp/wireshark-$VER
+
+# make to build the source
+make
+
+# make install
+make install
